@@ -1,23 +1,21 @@
 # 商城配置文件
 
+
 #### 介绍
-商城项目的配置文件
+B2C模式的综合性商品线上销售平台，主要分为前台管理和后台管理。后台管理主要功能：包括商品上下架，商品审核，人员权限分配。前台管理主要功能：包括商品检索（条件检索和分类检索），商品详情展示，添加购物车，订单的修改、展示，用户单点登录、在线支付、秒杀等。
 
 #### 软件架构
-软件架构说明
-
+技术栈：Springboot、SpringCloud、MyBatis-Plus、Redis、Elasticsearch、RabbitMQ、FastDFS
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  后端整体代码地址：https://gitee.com/liangxiaomin/gmall-parent.git
+2.  管理端前端代码：https://gitee.com/liangxiaomin/gmall-admin.git
+3.  其他文件（Nacos、SQL等）：https://gitee.com/liangxiaomin/mall-profile.git
 
 #### 使用说明
+端口号等其他配置信息信息在Nacos配置中，虚拟机网段设置为200
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 参与贡献
 
